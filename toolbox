@@ -1,0 +1,7 @@
+#!/bin/sh
+if [[ "$OSTYPE" == "darwin"* ]]; then
+        open -n "./QMK Toolbox.app";
+elif [[ "$OSTYPE" == "cygwin" ]]; then
+        ./qmk_toolbox.exe;
+fi
+
