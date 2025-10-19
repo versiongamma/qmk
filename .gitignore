@@ -14,3 +14,7 @@
 compile_commands.json
 .clangd/
 .cache/
+
+# QMK Toolbox binaries
+qmk_toolbox.exe
+QMK Toolbox.app
