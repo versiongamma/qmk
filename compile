@@ -1,3 +1,0 @@
-#!/bin/sh
-
-qmk compile -kb gmmk/pro/rev1/ansi -km versiongamma
