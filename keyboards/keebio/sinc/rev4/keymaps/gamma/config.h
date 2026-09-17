@@ -2,8 +2,7 @@
 
 #define DEFAULT_LAYER 0
 #define MACOS_LAYER 1
-#define NEW_LAYER 2
-#define FN_LAYER 3
+#define FN_LAYER 2
 
 /** RGB Matrix settings for Layers */
 // Default Layer
@@ -15,10 +14,6 @@
 #define MACOS_RGB_MODE RGB_MATRIX_GRADIENT_UP_DOWN
 #define MACOS_RGB_MODE_HSV 217, 255, 255
 #define MACOS_RGB_MODE_SPEED 56 // Gradient Size
-
-// #define NEW_RGB_MODE RGB_MATRIX_GRADIENT_LEFT_RIGHT
-// #define NEW_RGB_MODE_HSV 0, 255, 119
-// #define NEW_RGB_MODE_SPEED 52
 
 // FN Layer
 #define FN_RGB_MODE RGB_MATRIX_SOLID_COLOR
