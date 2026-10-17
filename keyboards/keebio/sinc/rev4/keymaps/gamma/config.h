@@ -1,5 +1,7 @@
 #pragma once
 
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+
 #define DEFAULT_LAYER 0
 #define MACOS_LAYER 1
 #define FN_LAYER 2
