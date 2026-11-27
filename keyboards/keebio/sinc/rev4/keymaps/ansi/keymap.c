@@ -29,7 +29,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 bool encoder_update_user(uint8_t index, bool clockwise) {
-    tap_code(clockwise ? MS_WHLL : MS_WHLR);
+    tap_code(clockwise ? MS_WHLR : MS_WHLL);
     return false;
 }
 
